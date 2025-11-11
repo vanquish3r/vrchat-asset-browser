@@ -261,6 +261,12 @@ select {
     word-break: break-word;
 }
 
+/* --- NEW: Style for links in description --- */
+.card-body a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 .card-notes {
     font-size: 0.85rem;
     font-style: italic;

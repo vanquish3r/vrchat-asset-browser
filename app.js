@@ -16,13 +16,14 @@ document.addEventListener('DOMContentLoaded', () => {
         return defaultVal;
     };
     
-    // --- NEW: Helper function to find URLs and make them links ---
+    // --- Helper function to find URLs and make them links ---
     const linkify = (text) => {
         if (!text) return '';
         const urlRegex = /(https?:\/\/[^\s]+)/g;
+        // Added line break handling
         return text.replace(urlRegex, (url) => {
             return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
-        });
+        }).replace(/\n/g, '<br>'); // Convert newlines to <br> tags
     };
 
     // 1. Fetch Data
@@ -139,10 +140,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? item.submittedOn.toISOString().split('T')[0]
                 : 'N/A';
 
-            // --- UPDATED: Conditionally display notes with clickable links ---
             const notesHTML = item.notes
                 ? `<div class="card-notes"><strong>Notes:</strong> ${linkify(item.notes)}</div>`
                 : '';
+            
+            // --- UPDATED: Apply linkify to description ---
+            const descriptionHTML = item.description
+                ? `<p class="card-body">${linkify(item.description)}</p>`
+                : '<p class="card-body">No description available.</p>';
 
             card.innerHTML = `
                 <div class="card-header">
@@ -152,7 +157,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <span class="card-badge">${item.mainCategory}</span>
                     </div>
                 </div>
-                <p class="card-body">${item.description}</p>
+                ${descriptionHTML}
                 ${notesHTML}
                 <div class="card-secondary">
                     <span class="card-secondary-item">Submitted by: <strong>${item.submittedBy}</strong></span>
