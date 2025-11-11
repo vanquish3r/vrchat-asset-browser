@@ -16,16 +16,10 @@ This project indexes and provides an easy-to-use interface for the data compiled
 
 ## Data Sources
 
-This database is a compilation of data from the following community-maintained CSV files:
+This database is a compilation of data from the following community-maintained Google Sheet:
 
-* `Avatar 3.0 Prefabs.csv`
-* `Creator Companion.csv`
-* `General Assets.csv`
-* `Prefabs VRChat - MUST HAVES.csv`
-* `Shaders.csv`
-* `Tools.csv`
-* `Tutorials.csv`
-* `Udon Prefabs (SDK3).csv`
+* `VRC Prefabs - https://vrcprefabs.com/`
+* `https://docs.google.com/spreadsheets/d/e/2PACX-1vTP-eIkYLZh7pDhpO-untxy1zbuoiqdzVP2z5-vg_9ijBW7k8ZC9VP6cVL-ct5yKrySPBPJ6V2ymlWS/pubhtml`
 
 All credit for the data belongs to the numerous individuals who contributed to and maintained these lists.
 
