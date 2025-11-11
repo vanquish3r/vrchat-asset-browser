@@ -1,0 +1,138 @@
+[
+  {
+    "name": "VRC Graffiti",
+    "author": "Absolute Stratos",
+    "description": "Functional graffiti can prefab for VR Chat avatars for spraying images onto VRC world objects",
+    "link": "https://github.com/AbsoluteStratos/VRC_Graffiti",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Complex Conditional Direct Blendtrees Examples Prefab for VRChat 3.0 Avatars",
+    "author": "Fuujin",
+    "description": "This prefab provides examples, how you can make toggles in direct blendtrees with multiple conditions. For example it includes an example of toggling a toggle when two parameters are true (AND) and an example of toggling an item when one ore more parameters are true (OR)",
+    "link": "https://fuuujin.gumroad.com/l/ComplexBlendtreesPrefab",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "OSC Parameter Sync system for VRChat 3.0 Avatars - Unlimited Avatar Parameters",
+    "author": "Fuujin",
+    "description": "This allows you to use more than the 256 memory allowed for you to use by VRChat.\nTo learn more about the conditions and use, please read the description on the product page. A video tutorial is included !",
+    "link": "https://fuuujin.gumroad.com/l/OSCParameterSync",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "VRCFury",
+    "author": "SenkyDragon",
+    "description": "Non-Destructive Tools for VRChat Avatars.",
+    "link": "https://vrcfury.com/download",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "VRC Skeletal Hands",
+    "author": "Dyslex1k",
+    "description": "Drag& Drop avatar setup and OSC app that allows Skeletal Input in VRChat.",
+    "link": "https://github.com/Dyslex1k/VRC-Skeletal-Hands",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Light Limit Changer for MA",
+    "author": "Azukimochi",
+    "description": "A tool that relies on Modular Avatar to easily and non-destructively introduce lighting change animations for lilToon/Poiyomi/Sunao shaders. In addition to brightness, it also supports color temperature, saturation, Unlit, and monochrome animation.",
+    "link": "https://azukimochi.github.io/LLC-Docs/",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Dynamic VRC Floor Collider",
+    "author": "BluWizard10",
+    "description": "A simple Floor Collider system that dynamically retains it's position on the Floor when you jump, allowing rigged Tails of long length to look more natural. Uses the new VRC Constraints system for optimal performance.",
+    "link": "https://github.com/BluWizard10/dynamic-floor",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Hackebein's Object Tracking",
+    "author": "Hackebein",
+    "description": "Track your real objects and track them in VRChat. All SteamVR/OpenVR tracker are supported.",
+    "link": "https://github.com/Hackebein/Object-Tracking-Unitypackage/releases",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "?VRC?????Silhouette Torch! Interactive Flashlight For Avatars 3.0!",
+    "author": "Okaeri Game Studio",
+    "description": "An interactive torch light for Avatars 3.0!",
+    "link": "https://okaeri-shop.booth.pm/items/4705964",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Avatar Optimizer",
+    "author": "anatawa12",
+    "description": "Avatar Optimization Utilities",
+    "link": "https://github.com/anatawa12/AvatarOptimizer#installation",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Base Animations menu for VRChat 3.0 Avatars",
+    "author": "Fuuujin",
+    "description": "The default animations menu that VRChat puts on your avatar if you do not use a custome menu for your avatar. Wave, Dance, etc.",
+    "link": "https://fuuujin.gumroad.com/l/siTit",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Modular Avatar",
+    "author": "bd_",
+    "description": "Tools for non-destructive avatar assembly and avatar gimmick installation",
+    "link": "https://modular-avatar.nadena.dev/",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Steve's Avatar PvP System",
+    "author": "Steve the Mitochondria",
+    "description": "A simple PvP system using contact senders and receivers with several damage type examples.",
+    "link": "httpsD://dangernoodleshop.booth.pm/items/4322176",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Synced Roller",
+    "author": "Skipper",
+    "description": "A synced simple d20 roller for VRC",
+    "link": "https://skippersablie.booth.pm/items/4320337",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Entorix FAB Flight and Boost",
+    "author": "Entorix",
+    "description": "A Simple prefab for VRChat 3.0 Avatars that lets you fly and boost forward (while in the air)",
+    "link": "https://github.com/Entorix/Entorix-FAB-Flight-and-Boost-",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Entorix Collision Trigger",
+    "author": "Entorix",
+    "description": "A basic particle death stop-action/avatar dynamics based collision detector that allows the triggering of animations when the gameobject collides with a generic collider",
+    "link": "https://github.com/Entorix/Entorix-Collision-Trigger",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  },
+  {
+    "name": "Full body sitting layer",
+    "author": "Dannyboi",
+    "description": "A sitting layer for 3.0 avatars that lets you keep full body while in a station, and reverts to normal sitting when in half-body or desktop",
+    "link": "https://daniboi.gumroad.com/l/IIaNK?_gl=1*2pqfsn*_ga*Mjk0MTc5MjQ0LjE2MDg2MjU2NzY.*_ga_6LJN6D94N6*MTY2Njc3NTIzMS4yMTMuMS4xNjY2Nzc2NjQ2LjAuMC4w",
+    "main_category": "Prefabs",
+    "sub_category": "Avatar 3.0"
+  }
+]
