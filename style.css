@@ -181,23 +181,16 @@ select {
 }
 /* --- END: 3.5 Welcome Section --- */
 
-/* --- 3.6 Placeholder Logo --- */
-.placeholder-logo {
-    width: 100px;
-    height: 100px;
-    background-color: var(--input-bg);
-    border: 2px solid var(--border-color);
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 auto 1.5rem; /* Center block, add margin below */
-    font-size: 2rem;
-    font-weight: 700;
-    color: var(--text-muted);
-    user-select: none; /* Make it non-selectable, like an image */
+/* --- 3.6 Welcome Logo --- */
+.welcome-logo {
+    width: 150px;
+    height: 150px;
+   /* border-radius: 50%;  This makes your logo circular */
+   /* border: 2px solid var(--border-color);  Keeps the border */
+   /* margin: 0 auto 1.5rem; */
+    object-fit: cover; /* Ensures your image fills the circle */
 }
-/* --- END: 3.6 Placeholder Logo --- */
+/* --- END: 3.6 Welcome Logo --- */
 
 
 /* 4. Main Content Grid */
