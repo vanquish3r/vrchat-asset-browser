@@ -5303,7 +5303,7 @@
   },
   {
     "Category": "Tutorials",
-    "Name": "(For v2.1.2.1) How to make QV Pen compatible with Oculus Quest?",
+    "Name": "How to make QV Pen compatible with Oculus Quest? (For v2.1.2.1)",
     "Author": "Tony_Lewis",
     "Description": "Updated version of customise to make QvPen compatible for version 2.1.2.1 due to version change.",
     "Download Link": "https://drive.google.com/file/d/1lD2VuvDgGytKgLxn4RCGOe5E0MvRFrTB/view?usp=sharing",
@@ -6172,7 +6172,7 @@
   },
   {
     "Category": "Tools",
-    "Name": "[EditorScript] UdonHierarchy 1.0.0",
+    "Name": "UdonHierarchy 1.0.0 [EditorScript]",
     "Author": "@PhaxeNor",
     "Description": "A simple script to show what GameObjects in the hierarchy that has a Udon component on it.",
     "Download Link": "https://github.com/PhaxeNor/UdonHierarchy/releases/download/1.0.0/UdonHierarchy-1.0.0_Public.unitypackage",
@@ -6238,7 +6238,7 @@
   },
   {
     "Category": "Tools",
-    "Name": "[Editor] Trigger Logger",
+    "Name": "Trigger Logger [Editor]",
     "Author": "@PhaxeNor",
     "Description": "Gives you a overview over all your triggers with the option to filter",
     "Download Link": "https://github.com/PhaxeNor/Trigger-Logger",

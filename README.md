@@ -18,8 +18,8 @@ A simple, fast, and searchable website to browse hundreds of VRChat assets, tool
 
 This database is a compilation of data from community-maintained sources, primarily:
 
-* **VRC Prefabs:** [vrcprefabs.com](https://vrcprefabs.com/)
-* **Community Google Sheet:** [View Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTP-eIkYLZh7pDhpO-untxy1zbuoiqdzVP2z5-vg_9ijBW7k8ZC9VP6cVL-ct5yKrySPBPJ6V2ymlWS/pubhtml)
+* **VRC Prefabs (Sunsetted):** [vrcprefabs.com](https://vrcprefabs.com/)
+* **Community Google Sheet Archive:** [View Here](https://docs.google.com/spreadsheets/d/e/2PACX-1vTP-eIkYLZh7pDhpO-untxy1zbuoiqdzVP2z5-vg_9ijBW7k8ZC9VP6cVL-ct5yKrySPBPJ6V2ymlWS/pubhtml)
 
 All credit for the data belongs to the numerous individuals who contributed to and maintained these lists.
 
