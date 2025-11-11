@@ -3,9 +3,9 @@
     --bg-color: #0e1013;
     --card-color: #252a30;
     --text-color: #f0f0f0;
-    --primary-color: #064b5c;
-    --border-color: #086c84;
-    --input-bg: #252a30;
+    --primary-color: #086c84;
+    --border-color: #064b5c;
+    --input-bg: #181b1f;
     --shadow-light: rgba(255, 255, 255, 0.1);
     --shadow-dark: rgba(0, 0, 0, 0.4);
 
@@ -20,8 +20,8 @@
     --bg-color: #f4f4f9;
     --card-color: #ffffff;
     --text-color: #1a1a1a;
-    --primary-color: #064b5c;
-    --border-color: #086c84;
+    --primary-color: #086c84;
+    --border-color: #064b5c;
     --input-bg: #eee;
     --shadow-light: rgba(0, 0, 0, 0.1);
     --shadow-dark: rgba(0, 0, 0, 0.1);
@@ -211,7 +211,7 @@ select {
 }
 
 .card-footer a:hover {
-    background-color: #086c84;
+    background-color: #064b5c;
     transform: scale(1.03);
 }
 
