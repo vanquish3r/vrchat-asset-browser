@@ -8,8 +8,25 @@ document.addEventListener('DOMContentLoaded', () => {
     const sortBy = document.getElementById('sort-by');
     const themeToggle = document.getElementById('theme-toggle');
 
+    // --- Helper function to safely get and clean strings ---
+    const safeString = (val, defaultVal = '') => {
+        if (typeof val === 'string') {
+            return val.trim();
+        }
+        return defaultVal;
+    };
+    
+    // --- NEW: Helper function to find URLs and make them links ---
+    const linkify = (text) => {
+        if (!text) return '';
+        const urlRegex = /(https?:\/\/[^\s]+)/g;
+        return text.replace(urlRegex, (url) => {
+            return `<a href="${url}" target="_blank" rel="noopener noreferrer">${url}</a>`;
+        });
+    };
+
     // 1. Fetch Data
-    fetch('vrchat_assets.json') // Load the new JSON file
+    fetch('vrchat_assets.json')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
@@ -18,22 +35,21 @@ document.addEventListener('DOMContentLoaded', () => {
         })
         .then(data => {
             allItems = data.map(item => {
-                // Parse the date string into a Date object for sorting
                 let submittedDate = new Date(item["Submitted on"]);
                 if (isNaN(submittedDate)) {
                     submittedDate = new Date(0); // 1970-01-01
                 }
 
                 return {
-                    name: item.Name || 'No Title',
-                    author: item.Author || 'Unknown Author',
-                    description: item.Description || 'No description available.',
-                    link: item["Download Link"],
-                    mainCategory: item.Category || 'Uncategorized',
+                    name: safeString(item.Name, 'No Title'),
+                    author: safeString(item.Author, 'Unknown Author'),
+                    description: safeString(item.Description, 'No description available.'),
+                    link: safeString(item["Download Link"]),
+                    mainCategory: safeString(item.Category, 'Uncategorized'),
                     submittedOn: submittedDate,
-                    submittedBy: item["Submitted by"] || 'Unknown',
-                    notes: item.Notes || '',
-                    previewLink: item["Preview Link"] || '' // <-- ADDED THIS
+                    submittedBy: safeString(item["Submitted by"], 'Unknown'),
+                    notes: safeString(item.Notes),
+                    previewLink: safeString(item["Preview Link"])
                 };
             });
             
@@ -73,9 +89,9 @@ document.addEventListener('DOMContentLoaded', () => {
         // Filter items
         let filteredItems = allItems.filter(item => {
             const matchesSearch = 
-                (item.name?.toLowerCase() || '').includes(searchTerm) ||
-                (item.author?.toLowerCase() || '').includes(searchTerm) ||
-                (item.description?.toLowerCase() || '').includes(searchTerm);
+                item.name.toLowerCase().includes(searchTerm) ||
+                item.author.toLowerCase().includes(searchTerm) ||
+                item.description.toLowerCase().includes(searchTerm);
             
             const matchesMainCategory = mainCategory === 'all' || item.mainCategory === mainCategory;
 
@@ -113,21 +129,19 @@ document.addEventListener('DOMContentLoaded', () => {
                 ? `<a href="${item.link}" target="_blank" rel="noopener noreferrer">Download / View</a>`
                 : `<a class="disabled">Link Not Available</a>`;
             
-            // --- NEW PREVIEW BUTTON LOGIC ---
             let previewButtonHTML = '';
-            if (item.previewLink && (item.previewLink.startsWith('http') || item.previewLink.startsWith('https://'))) {
+            if (item.previewLink) {
                 previewButtonHTML = `<a href="${item.previewLink}" target="_blank" rel="noopener noreferrer" class="btn-preview">Preview</a>`;
             }
-            // --- END NEW LOGIC ---
 
             // Format date to YYYY-MM-DD
             const dateString = item.submittedOn.getFullYear() > 1970 
                 ? item.submittedOn.toISOString().split('T')[0]
                 : 'N/A';
 
-            // Conditionally display notes
+            // --- UPDATED: Conditionally display notes with clickable links ---
             const notesHTML = item.notes
-                ? `<div class="card-notes"><strong>Notes:</strong> ${item.notes}</div>`
+                ? `<div class="card-notes"><strong>Notes:</strong> ${linkify(item.notes)}</div>`
                 : '';
 
             card.innerHTML = `
@@ -162,12 +176,14 @@ document.addEventListener('DOMContentLoaded', () => {
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)');
     const currentTheme = localStorage.getItem('theme');
 
+    // Set initial theme on load
     if (currentTheme === 'dark' || (!currentTheme && prefersDark.matches)) {
         document.documentElement.setAttribute('data-theme', 'dark');
     } else {
         document.documentElement.setAttribute('data-theme', 'light');
     }
 
+    // Handle toggle click
     themeToggle.addEventListener('click', () => {
         const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
         document.documentElement.setAttribute('data-theme', theme);

@@ -3423,11 +3423,11 @@
   {
     "Category": "Avatar 3.0 Prefabs",
     "Name": "Expressions Menu Hierarchy Editor",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Edit your avatar menus as if they were objects in your scene hierarchy.\n\nIf your menu has parameters that are missing from your VRCExpressionParameters asset, you can still upload your avatar. It will generate disabled icons that do nothing.",
     "Download Link": "https://github.com/hai-vr/av3-expressions-menu-hierarchy-editor",
     "Submitted on": "3-3-2022 2:26:17",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1499179068016709634"
   },
@@ -3522,22 +3522,22 @@
   {
     "Category": "Avatar 3.0 Prefabs",
     "Name": "Unity 2018 to 2019 Cloth Transfer",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Cloth Transfer is a Unity Editor tool that lets you transfer cloth constraints of a mesh from a Unity 2018 project into a Unity 2019 project.\n\nIt was created mainly to assist migration from Unity 2018 to Unity 2019 in the VRChat social platform.",
     "Download Link": "https://github.com/hai-vr/unity-2018-2019-cloth-transfer",
     "Submitted on": "7-20-2021 19:17:31",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1417533270586179598"
   },
   {
     "Category": "Avatar 3.0 Prefabs",
     "Name": "ExpressionsEditor",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "ExpressionsEditor an animation editor that lets you create face expressions with the help of previews.\n\nIt generates a preview of all blendshapes of an avatar, highlighting the area that is being modified by the blendshape. They can then be inserted into an animation with one click.\n\nIn its standalone form, it does not require any SDK of any platform to be installed.",
     "Download Link": "https://github.com/hai-vr/combo-gesture-expressions-av3",
     "Submitted on": "7-19-2021 4:27:19",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "To install its standalone form, you can uncheck the \"ComboGesture\" folder after opening the .unitypackage file.",
     "Preview Link": "https://hai-vr.github.io/combo-gesture-expressions-av3/expressions-editor.html"
   },
@@ -3676,11 +3676,11 @@
   {
     "Category": "Avatar 3.0 Prefabs",
     "Name": "ComboGestureExpressions for Avatars 3.0",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "ComboGestureExpressions is an Unity Editor tool that lets you attach face expressions to hand gestures, and automatically generate an Avatars 3.0 animator to match these gestures.",
     "Download Link": "https://github.com/hai-vr/combo-gesture-expressions-av3",
     "Submitted on": "7-9-2020 23:20:01",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://github.com/hai-vr/combo-gesture-expressions-av3"
   },
@@ -4237,11 +4237,11 @@
   {
     "Category": "Shaders",
     "Name": "Handholding Shader IK",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "This shader allows two avatars to be holding hands, mainly designed for dancing.\n\nA very simplistic IK system is reprogrammed within the shader code to control a fake arm of one avatar, which will be attracted towards a special light of another avatar.\n\nAs it is a shader, the effect is not affected by lag: It will give the appearance of handholding from the perspective of everyone with shaders and particles enabled, no matter the delay between the two dancers.",
     "Download Link": "https://github.com/hai-vr/handholding-shader-ik",
     "Submitted on": "14-02-2020",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "https://github.com/hai-vr/handholding-shader-ik/blob/master/README.md",
     "Preview Link": "https://twitter.com/Lyuma2d/status/1228326801056792576"
   },
@@ -4930,7 +4930,7 @@
   {
     "Category": "Tutorials",
     "Name": "Knowledge Index",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "This is a compilation of many things I've learned while building VRChat content.",
     "Download Link": "https://hai-vr.notion.site/hai-vr/Knowledge-Index-f53af3099f414e2080b1c0a7425b54e5",
     "Submitted on": "1-24-2022 22:34:41",
@@ -5799,11 +5799,11 @@
   {
     "Category": "Tools",
     "Name": "Lightbox Viewer",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Lightbox Viewer lets you simultaneously visualize changes in shader material settings under different lighting conditions.",
     "Download Link": "https://hai-vr.github.io/lightbox-viewer/",
     "Submitted on": "5-17-2022 1:12:14",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1526338003739844610"
   },
@@ -5854,22 +5854,22 @@
   {
     "Category": "Tools",
     "Name": "Visual Expressions Editor",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Visual Expressions Editor lets you edit face expression animations.",
     "Download Link": "https://hai-vr.notion.site/Visual-Expressions-Editor-262f0ba4cfe24ba38278d99939a2a018",
     "Submitted on": "3-8-2022 17:09:53",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1501226204208283651"
   },
   {
     "Category": "Tools",
     "Name": "Animator As Code",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Unity C# library to let you create Avatars 3.0 animator layers and animations using method chaining (fluent interface)",
     "Download Link": "https://github.com/hai-vr/av3-animator-as-code",
     "Submitted on": "2-28-2022 15:42:19",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1498306097471492097"
   },
@@ -5887,22 +5887,22 @@
   {
     "Category": "Tools",
     "Name": "Blendshape Viewer",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Blendshape Viewer�lets you visually browse blendshapes.",
     "Download Link": "https://hai-vr.notion.site/Blendshape-Viewer-d9e139664ff74677ad004b6f7cf9b1a7",
     "Submitted on": "2-5-2022 18:05:14",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1482161592733208578"
   },
   {
     "Category": "Tools",
     "Name": "Animation Viewer",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Animation Viewer lets you preview animations in the Project view browser.",
     "Download Link": "https://hai-vr.notion.site/Animation-Viewer-2a4bc319631c44d383174bd140722e38",
     "Submitted on": "2-5-2022 18:04:40",
-    "Submitted by": "Ha�~",
+    "Submitted by": "Haï~",
     "Notes": "",
     "Preview Link": "https://twitter.com/vr_hai/status/1488713494862217218"
   },
@@ -5931,7 +5931,7 @@
   {
     "Category": "Tools",
     "Name": "Constraint Track Animation Creator",
-    "Author": "Ha�~",
+    "Author": "Haï~",
     "Description": "Constraint Track Animation Creator automates the creation of a gimmick that lets you animate an object to slide along a track using constraints.",
     "Download Link": "https://github.com/hai-vr/av3-constraint-track-animation-creator",
     "Submitted on": "12-25-2021 21:13:50",

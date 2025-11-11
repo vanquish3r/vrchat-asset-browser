@@ -100,6 +100,22 @@ nav a:hover {
     height: 24px;
 }
 
+/* --- THEME ICON CSS --- */
+[data-theme="light"] .icon-moon {
+    display: none;
+}
+[data-theme="light"] .icon-sun {
+    display: block;
+}
+[data-theme="dark"] .icon-sun {
+    display: none;
+}
+[data-theme="dark"] .icon-moon {
+    display: block;
+}
+/* --- END THEME ICON CSS --- */
+
+
 /* 3. Controls Container */
 .controls-container {
     max-width: 1400px;
@@ -135,6 +151,54 @@ select {
     color: var(--text-color);
     cursor: pointer;
 }
+
+/* --- 3.5 Welcome Section --- */
+.welcome-section {
+    width: min(100% - 4rem, 1336px);
+    margin-top: 2rem;
+    margin-inline: auto;
+    padding: 2.5rem 2rem;
+    background-color: var(--card-color);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: 0 4px 12px var(--shadow-dark);
+}
+
+.welcome-section h1 {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+}
+
+.welcome-section p {
+    font-size: 1rem;
+    color: var(--text-muted);
+    max-width: 80ch; /* Limits line length for readability */
+    margin: 0 auto;
+    line-height: 1.7;
+}
+/* --- END: 3.5 Welcome Section --- */
+
+/* --- 3.6 Placeholder Logo --- */
+.placeholder-logo {
+    width: 100px;
+    height: 100px;
+    background-color: var(--input-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 1.5rem; /* Center block, add margin below */
+    font-size: 2rem;
+    font-weight: 700;
+    color: var(--text-muted);
+    user-select: none; /* Make it non-selectable, like an image */
+}
+/* --- END: 3.6 Placeholder Logo --- */
+
 
 /* 4. Main Content Grid */
 #item-container {
@@ -214,6 +278,11 @@ select {
     word-break: break-word;
 }
 
+.card-notes a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
 .card-secondary {
     font-size: 0.8rem;
     color: var(--text-muted);
@@ -230,7 +299,6 @@ select {
     color: var(--text-color);
 }
 
-/* --- UPDATED FOOTER STYLES --- */
 .card-footer {
     display: flex;
     flex-wrap: wrap;
@@ -256,7 +324,6 @@ select {
     transform: scale(1.03);
 }
 
-/* --- NEW PREVIEW BUTTON STYLE --- */
 .card-footer a.btn-preview {
     background-color: transparent;
     color: var(--primary-color);
@@ -267,7 +334,6 @@ select {
     background-color: var(--primary-color);
     color: #ffffff;
 }
-/* --- END NEW STYLES --- */
 
 .card-footer a.disabled {
     background-color: var(--input-bg);
@@ -308,6 +374,7 @@ select {
 
 .static-page ul {
     list-style-position: inside;
+    padding-left: 1rem;
 }
 
 .static-page a {
