@@ -4,7 +4,7 @@ A simple, fast, and searchable website to browse thousands of VRChat assets, too
 
 This project indexes and provides an easy-to-use interface for the data compiled by the VRChat community.
 
-**[View the Live Website Here](https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/)** *(Replace the link above with your actual GitHub Pages URL after deploying!)*
+**[View the Live Website Here](https://vanquish3r.github.io/vrchat-asset-browser/)**
 
 ## Features
 
@@ -16,10 +16,10 @@ This project indexes and provides an easy-to-use interface for the data compiled
 
 ## Data Sources
 
-This database is a compilation of data from the following community-maintained Google Sheet:
+This database is a compilation of data from the following community-maintained Google Sheets:
 
-* `VRC Prefabs - https://vrcprefabs.com/`
-* `https://docs.google.com/spreadsheets/d/e/2PACX-1vTP-eIkYLZh7pDhpO-untxy1zbuoiqdzVP2z5-vg_9ijBW7k8ZC9VP6cVL-ct5yKrySPBPJ6V2ymlWS/pubhtml`
+* `[VRC Prefabs](https://vrcprefabs.com/)`
+* `[Google Sheets](https://docs.google.com/spreadsheets/d/e/2PACX-1vTP-eIkYLZh7pDhpO-untxy1zbuoiqdzVP2z5-vg_9ijBW7k8ZC9VP6cVL-ct5yKrySPBPJ6V2ymlWS/pubhtml)`
 
 All credit for the data belongs to the numerous individuals who contributed to and maintained these lists.
 
