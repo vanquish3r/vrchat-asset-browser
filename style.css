@@ -1,11 +1,11 @@
 /* 1. Global Reset & Theme */
 :root {
-    --bg-color: #1a1a1a;
-    --card-color: #2c2c2c;
+    --bg-color: #0e1013;
+    --card-color: #181b1f;
     --text-color: #f0f0f0;
-    --primary-color: #007bff;
-    --border-color: #444;
-    --input-bg: #333;
+    --primary-color: #064b5c;
+    --border-color: #053c48;
+    --input-bg: #252a30;
     --shadow-light: rgba(255, 255, 255, 0.1);
     --shadow-dark: rgba(0, 0, 0, 0.4);
 
@@ -20,8 +20,8 @@
     --bg-color: #f4f4f9;
     --card-color: #ffffff;
     --text-color: #1a1a1a;
-    --primary-color: #0056b3;
-    --border-color: #ddd;
+    --primary-color: #064b5c;
+    --border-color: #053c48;
     --input-bg: #eee;
     --shadow-light: rgba(0, 0, 0, 0.1);
     --shadow-dark: rgba(0, 0, 0, 0.1);
