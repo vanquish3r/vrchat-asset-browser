@@ -194,4 +194,20 @@ document.addEventListener('DOMContentLoaded', () => {
         document.documentElement.setAttribute('data-theme', theme);
         localStorage.setItem('theme', theme);
     });
+
+    // 6. Back to Top Button Logic
+    const backToTopButton = document.getElementById('back-to-top');
+    const searchBarElement = document.getElementById('search-bar');
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 300) {
+            backToTopButton.classList.add('visible');
+        } else {
+            backToTopButton.classList.remove('visible');
+        }
+    });
+
+    backToTopButton.addEventListener('click', () => {
+        searchBarElement.scrollIntoView({ behavior: 'smooth' });
+    });
 });
