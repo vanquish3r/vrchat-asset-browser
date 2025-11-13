@@ -1,5 +1,5 @@
 ![VRC Asset DB Logo](./vrcasset-logo.png)
-# VRChat Asset Database
+# VRChat Free Asset Database
 
 A simple, fast, and searchable website to browse hundreds of VRChat assets, tools, prefabs, shaders, and tutorials. This project indexes and provides an easy-to-use interface for data compiled by the VRChat community.
 
