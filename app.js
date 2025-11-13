@@ -208,6 +208,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     backToTopButton.addEventListener('click', () => {
-        searchBarElement.scrollIntoView({ behavior: 'smooth' });
+        const headerOffset = document.querySelector('header').offsetHeight;
+        const elementPosition = searchBarElement.getBoundingClientRect().top + window.scrollY;
+        const offsetPosition = elementPosition - headerOffset - 20; // 20px margin
+
+        window.scrollTo({
+            top: offsetPosition,
+            behavior: 'smooth'
+        });
     });
 });
